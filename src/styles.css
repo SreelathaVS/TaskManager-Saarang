@@ -1,0 +1,143 @@
+body {
+  background-color: hsl(176, 58%, 50%);
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(198, 1%, 29%);
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  font-size: 130%;
+}
+.App {
+  text-align: center;
+  margin: 20px;
+  width: 100%;
+  height: auto;
+  max-width: 1720px;
+  min-width: 1000px;
+  background: #f1f5f8;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.heading h1 {
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: #fdcb6e;
+  font-size: 1.5rem;
+}
+.form input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  border-bottom: dashed 3px #fdcb6e;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1rem;
+  color: hsla(260, 2%, 25%, 0.7);
+  width: 90%;
+  margin-bottom: 2;
+}
+.edit-form {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.3rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  border-bottom: dashed 3px hsl(176, 58%, 50%);
+  font-family: "Architects Daughter", cursive;
+  font-size: 1rem;
+  color: hsla(260, 2%, 25%, 0.7);
+  width: 50%;
+  margin-bottom: 2;
+}
+button {
+  padding: 0;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-radius: 5px;
+  margin-left: 2px;
+}
+.list-item {
+  margin-right: 8px;
+}
+button span {
+  background: #f1f5f8;
+  display: block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  border: 2px solid hsl(198, 1%, 29%);
+}
+.submit-btn {
+  padding: 20px;
+  background-color: none;
+}
+.submit-btn span {
+  font-size: 20px;
+}
+ul {
+  padding: 0;
+}
+
+li {
+  text-align: left;
+  position: relative;
+  padding: 0.5rem;
+  border-radius: 20px;
+  background-color: #fdcb6e;
+  margin: 10px;
+}
+
+.task-manager {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-sections {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1550px;
+  margin-top: 20px;
+}
+/*list-style: none */
+.task-section {
+  flex: 1;
+  margin: 0 5px; /* 25px margin on each side to create a 50px gap between them */
+  min-width: 300px;
+
+  border-radius: 20px;
+}
+
+.task-section:first-child {
+  margin-right: 5px; /* Ensure there's a gap between the two sections */
+}
+
+.task-section:last-child {
+  margin-left: 5px; /* Ensure there's a gap between the two sections */
+}
+.task-section h2 {
+  background-color: hsl(176, 58%, 50%);
+  padding: 1.2rem 1.2rem;
+  border-radius: 20px;
+  font-size: 1.5rem;
+}
